@@ -85,9 +85,9 @@ int main()
 		
         while(i < size)
         {
-			int yeah=-41;
+			int yeah=-1001;
             printf("array[%d] = ", i);
-			yeah = dumb(yeah, 1, 200); 
+			yeah = dumb(yeah, -1000, 1000); 
 			array[i]=yeah;
 			i++;
         }
